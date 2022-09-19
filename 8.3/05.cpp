@@ -73,7 +73,7 @@ void heapsort(int a[], int len)
 }
 
 int kth_elem(int a[], int low, int high, int k)
-{
+{//一种递归实现的方法
     int pivot = a[low];
     int low_temp = low, high_temp = high;
     while (low < high)
