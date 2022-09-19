@@ -39,7 +39,7 @@ void QuickSort(int A[], int low, int high)
 int main()
 {
     int a[] = {1, 7, 5, 4, 9, 11, 14, 10, 15, 3};
-    QuickSort(a,0, 10);
+    QuickSort(a,0, 9);
     for (int i = 0; i < 10; i++)
     {
         if (i == 9)
