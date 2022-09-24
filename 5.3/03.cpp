@@ -23,11 +23,11 @@ void visit(BiTree T)
 }
 
 typedef SqStack;
-void InitStack(SqStack S);
+void InitStack(SqStack &S);
 bool StackEmpty(SqStack S);
-void Push(SqStack S, BiTNode* p);
-BiTree Pop(SqStack S,BiTNode* p);
-BiTree GetPop(SqStack S,BiTNode* p);
+bool Push(SqStack S, BiTNode* p);
+bool Pop(SqStack S,BiTNode* &p);
+bool GetPop(SqStack S,BiTNode* &p);
 
 
 //∫Û–Ú±È¿˙∑«µ›πÈ
